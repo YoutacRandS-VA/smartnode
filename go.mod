@@ -5,8 +5,8 @@ go 1.19
 require (
 	github.com/alessio/shellescape v1.4.1
 	github.com/blang/semver/v4 v4.0.0
-	github.com/btcsuite/btcd v0.23.4
-	github.com/btcsuite/btcd/btcutil v1.1.3
+	github.com/btcsuite/btcd v0.24.0
+	github.com/btcsuite/btcd/btcutil v1.1.5
 	github.com/docker/docker v23.0.3+incompatible
 	github.com/dustin/go-humanize v1.0.1
 	github.com/ethereum/go-ethereum v1.10.26
@@ -46,6 +46,7 @@ require (
 	golang.org/x/crypto v0.6.0
 	golang.org/x/sync v0.5.0
 	golang.org/x/term v0.5.0
+	golang.org/x/text v0.7.0
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/yaml.v2 v2.4.0
 )
@@ -56,7 +57,7 @@ require (
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2 // indirect
-	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.1 // indirect
+	github.com/btcsuite/btcd/chaincfg/chainhash v1.1.0 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
 	github.com/crackcomm/go-gitignore v0.0.0-20170627025303-887ab5e44cc3 // indirect
@@ -154,7 +155,6 @@ require (
 	go.uber.org/zap v1.24.0 // indirect
 	golang.org/x/net v0.7.0 // indirect
 	golang.org/x/sys v0.14.0 // indirect
-	golang.org/x/text v0.7.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	gonum.org/v1/gonum v0.12.0 // indirect
 	google.golang.org/api v0.45.0 // indirect
